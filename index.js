@@ -1,8 +1,16 @@
 const inpt = document.getElementById("1");
+const misho = document.getElementById("masha");
 
 inpt.addEventListener("input", () => {
   const inputValue = inpt.value;
   sessionStorage.setItem("inputValue", inputValue);
+});
+
+misho.addEventListener("mouseover", () => {
+  misho.style.color = "red";
+});
+misho.addEventListener("mouseout", () => {
+  misho.style.color = "unset";
 });
 
 window.addEventListener("DOMContentLoaded", (e) => {
