@@ -7,7 +7,7 @@ inpt.addEventListener("input", () => {
 });
 
 misho.addEventListener("mouseover", () => {
-  misho.style.color = "red";
+  misho.style.color = "pink";
 });
 misho.addEventListener("mouseout", () => {
   misho.style.color = "unset";
